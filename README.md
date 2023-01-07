@@ -27,7 +27,7 @@ This is an alternative to the VMWare/VBox Image provided by Universal Robots.
 
 ### Prerequisites
 
-[Docker]((https://docs.docker.com/get-docker/)) is required to run this simulator 
+[Docker]((https://docs.docker.com/get-docker/)) is required to run this simulator
 
 ### Installation
 
@@ -43,18 +43,17 @@ This is an alternative to the VMWare/VBox Image provided by Universal Robots.
    ```sh
    cd CB
    ```
-   or 
-   
-   ```sh 
+   or
+
+   ```sh
    cd eSeries
    ```
 5. Build the image
    ```sh
-   docker build -t czagrzebski/ursimdocker .
+   . build.bash
    ```
 6. Run the image
-   ```sh
-    docker run -it -p 5900:5900 -p 29999:29999 -p 30001-30004:30001-30004 -p 8080:8080 -e ROBOT_TYPE=UR10 czagrzebski/ursimdocker   
+   ```. run.bash
    ```
 7. Open the web interface using the provided URL
 
