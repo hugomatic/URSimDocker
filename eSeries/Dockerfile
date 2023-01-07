@@ -23,6 +23,7 @@ RUN rm -rf URSim_Linux-5.11.11.1010533.tar.gz
 
 # Copy the entrypoint/stopurcontrol script and set the CWD
 COPY ./entrypoint.sh /root/ursim
+COPY ./host.sh /root/ursim
 COPY ./stopurcontrol.sh /root/ursim
 WORKDIR /root/ursim
 
@@ -45,5 +46,6 @@ EXPOSE 30002
 EXPOSE 30003
 EXPOSE 30004
 EXPOSE 29999
+EXPOSE 22
 
 CMD ["./entrypoint.sh"]

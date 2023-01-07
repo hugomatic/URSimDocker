@@ -1,7 +1,8 @@
 #!/bin/bash
 # Entrypoint for the URSimDock
 
-host_ip=192.168.1.223
+source ./host.sh
+
 port=50000
 
 ping -c 2 $host_ip
