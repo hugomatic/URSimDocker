@@ -1,0 +1,7 @@
+https://s3-eu-west-1.amazonaws.com/ur-support-site/123978/Remote%20Operation%20Guide%20V1.1.pdf
+https://www.universal-robots.com/articles/ur/interface-communication/overview-of-client-interfaces/
+
+read robot state from RTDE
+https://github.com/jonenfabian/Python_RTDE_to_Universal_Robots
+
+https://www.universal-robots.com/articles/ur/programming/interpreter-mode/

@@ -1,0 +1,2 @@
+Primary connector
+https://forum.universal-robots.com/t/primary-interface-messages/1850/14
